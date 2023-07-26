@@ -72,10 +72,12 @@ function signingUp (){
     let passwordRe=/^.{8,}$/;
     let flag=0;
     alarmMsg.classList.add("d-none");
+    
     emailMsg.classList.add("d-none") ;
     passwordMsg.classList.add("d-none");
     
     if(emailInput.value==="" || userNameInput.value==="" || passwordInput.value===""){
+        alarmMsg.classList.remove("success");
         alarmMsg.innerHTML="* all fields are required";
         
         alarmMsg.classList.remove("d-none");
