@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(36, 53, 63) !important;
+}
+
+.navbar{
+    box-shadow:  rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.logout-button{
+    border: 1px solid #ffc107 !important;
+}
+.logout-button:hover{
+    background-color: #ffc107 !important;
+    color: #fff !important;
+}
+.form{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.heading{
+    color:rgb(23, 162, 184) ;
+}
+#username::placeholder{
+    color: #B6B6B6;
+}
+#email::placeholder{
+    color: #B6B6B6;
+}
+#password::placeholder{
+    color: #B6B6B6;
+}
+.login-signup-button{
+    border: 1px solid  rgb(23, 162, 184);
+    color: rgb(23, 162, 184);
+    
+    border-color: rgb(23, 162, 184);
+}
+
+.btn:hover {
+    background-color:  rgb(23, 162, 184);
+    color: #fff;
+}
+
+.sign-up:hover{
+    text-decoration: underline !important;
+}
+/* main page style */
+.main-page{
+   
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+/* main page style */
+/* sucess msg style */
+
+.success{
+    color: green !important;
+}
+/* sucess msg style */
