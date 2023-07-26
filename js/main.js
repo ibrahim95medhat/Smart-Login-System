@@ -77,7 +77,7 @@ function signingUp (){
     
     if(emailInput.value==="" || userNameInput.value==="" || passwordInput.value===""){
         alarmMsg.innerHTML="* all fields are required";
-        alarmMsg.style="color:red !important;"
+        
         alarmMsg.classList.remove("d-none");
         return
     }
